@@ -21,4 +21,5 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
   ? '/chd103/ingrid/koala/'
   : '/',
+  outputDir: 'koala'
 })
