@@ -3,6 +3,7 @@
   <main>
     <nav>
       <router-link to="/">首頁</router-link> |
+      <router-link to="/product">商城</router-link> |
       <router-link to="/store">商品</router-link> |
       <span>
         <template v-if="userInfo">

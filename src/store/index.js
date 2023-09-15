@@ -1,11 +1,13 @@
 import { createStore } from 'vuex'
 
 const baseURL = process.env.NODE_ENV === 'development' ? '/api': 'https://tibamef2e.com/cgd103/g1/api'
+const publicURL = process.env.NODE_ENV === 'development' ? '': 'https://tibamef2e.com/chd103/ingrid/koala'
 export default createStore({
   state: {
     siteLoad: false,
     userInfo: null,
-    baseURL: baseURL
+    baseURL: baseURL,
+    publicURL: publicURL,
   },
   getters: {
   },
